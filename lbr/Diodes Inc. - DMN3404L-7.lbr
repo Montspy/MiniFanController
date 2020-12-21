@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="DIODES_INC._DMN3404L-7_0">
+                    <description>N-Channel 30V 5.8A (Ta) 720mW (Ta) Surface Mount SOT-23-3</description>
+                    <wire layer="51" y2="1.5" width="0.15" x2="-0.7" y1="-1.5" x1="-0.7"/>
+                    <wire layer="51" y2="1.5" width="0.15" x2="0.7" y1="1.5" x1="-0.7"/>
+                    <wire layer="51" y2="-1.5" width="0.15" x2="0.7" y1="1.5" x1="0.7"/>
+                    <wire layer="51" y2="-1.5" width="0.15" x2="-0.7" y1="-1.5" x1="0.7"/>
+                    <wire layer="41" y2="1.6" width="0.1" x2="-1.55" y1="-1.6" x1="-1.55"/>
+                    <wire layer="41" y2="1.6" width="0.1" x2="1.55" y1="1.6" x1="-1.55"/>
+                    <wire layer="41" y2="-1.6" width="0.1" x2="1.55" y1="1.6" x1="1.55"/>
+                    <wire layer="41" y2="-1.6" width="0.1" x2="-1.55" y1="-1.6" x1="1.55"/>
+                    <wire layer="21" y2="1.5" width="0.15" x2="0.7" y1="1.5" x1="-0.175"/>
+                    <wire layer="21" y2="-0.775" width="0.15" x2="0.7" y1="-1.5" x1="0.7"/>
+                    <wire layer="21" y2="1.5" width="0.15" x2="0.7" y1="0.775" x1="0.7"/>
+                    <wire layer="21" y2="-1.5" width="0.15" x2="0.7" y1="-1.5" x1="-0.175"/>
+                    <wire layer="21" y2="0.175" width="0.15" x2="-0.7" y1="-0.175" x1="-0.7"/>
+                    <text layer="25" align="bottom-left" y="1.8" x="-0.7" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.9" dy="0.8" y="0.95" x="-1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.9" dy="0.8" y="-0.95" x="-1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.9" dy="0.8" y="0.0" x="1.0" rot="R0" cream="yes"/>
+                </package>
+                <package name="DIODES_INC._DMN3404L-7_1">
+                    <description>N-Channel 30V 5.8A (Ta) 720mW (Ta) Surface Mount SOT-23-3</description>
+                    <wire layer="51" y2="1.45" width="0.15" x2="-0.65" y1="-1.45" x1="-0.65"/>
+                    <wire layer="51" y2="1.45" width="0.15" x2="0.65" y1="1.45" x1="-0.65"/>
+                    <wire layer="51" y2="-1.45" width="0.15" x2="0.65" y1="1.45" x1="0.65"/>
+                    <wire layer="51" y2="-1.45" width="0.15" x2="-0.65" y1="-1.45" x1="0.65"/>
+                    <wire layer="41" y2="1.95" width="0.1" x2="-2.306" y1="-1.95" x1="-2.306"/>
+                    <wire layer="41" y2="1.95" width="0.1" x2="2.306" y1="1.95" x1="-2.306"/>
+                    <wire layer="41" y2="-1.95" width="0.1" x2="2.306" y1="1.95" x1="2.306"/>
+                    <wire layer="41" y2="-1.95" width="0.1" x2="-2.306" y1="-1.95" x1="2.306"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.65" y1="1.45" x1="0.228"/>
+                    <wire layer="21" y2="-0.688" width="0.15" x2="0.65" y1="-1.45" x1="0.65"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.65" y1="0.688" x1="0.65"/>
+                    <wire layer="21" y2="-1.45" width="0.15" x2="0.65" y1="-1.45" x1="0.228"/>
+                    <wire layer="21" y2="0.227" width="0.15" x2="-0.65" y1="-0.227" x1="-0.65"/>
+                    <text layer="25" align="bottom-left" y="2.65" x="-2.806" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.659" dy="0.627" y="0.915" x="-0.977" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="1.659" dy="0.627" y="-0.915" x="-0.977" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="1.659" dy="0.627" y="-0.0" x="0.977" rot="R0" cream="yes"/>
+                </package>
+                <package name="DIODES_INC._DMN3404L-7_2">
+                    <description>N-Channel 30V 5.8A (Ta) 720mW (Ta) Surface Mount SOT-23-3</description>
+                    <wire layer="51" y2="1.45" width="0.15" x2="-0.65" y1="-1.45" x1="-0.65"/>
+                    <wire layer="51" y2="1.45" width="0.15" x2="0.65" y1="1.45" x1="-0.65"/>
+                    <wire layer="51" y2="-1.45" width="0.15" x2="0.65" y1="1.45" x1="0.65"/>
+                    <wire layer="51" y2="-1.45" width="0.15" x2="-0.65" y1="-1.45" x1="0.65"/>
+                    <wire layer="41" y2="1.7" width="0.1" x2="-1.856" y1="-1.7" x1="-1.856"/>
+                    <wire layer="41" y2="1.7" width="0.1" x2="1.856" y1="1.7" x1="-1.856"/>
+                    <wire layer="41" y2="-1.7" width="0.1" x2="1.856" y1="1.7" x1="1.856"/>
+                    <wire layer="41" y2="-1.7" width="0.1" x2="-1.856" y1="-1.7" x1="1.856"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.65" y1="1.45" x1="0.128"/>
+                    <wire layer="21" y2="-0.668" width="0.15" x2="0.65" y1="-1.45" x1="0.65"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.65" y1="0.668" x1="0.65"/>
+                    <wire layer="21" y2="-1.45" width="0.15" x2="0.65" y1="-1.45" x1="0.128"/>
+                    <wire layer="21" y2="0.247" width="0.15" x2="-0.65" y1="-0.247" x1="-0.65"/>
+                    <text layer="25" align="bottom-left" y="2.15" x="-2.106" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.359" dy="0.587" y="0.915" x="-0.927" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="1.359" dy="0.587" y="-0.915" x="-0.927" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="1.359" dy="0.587" y="-0.0" x="0.927" rot="R0" cream="yes"/>
+                </package>
+                <package name="DIODES_INC._DMN3404L-7_3">
+                    <description>N-Channel 30V 5.8A (Ta) 720mW (Ta) Surface Mount SOT-23-3</description>
+                    <wire layer="51" y2="1.45" width="0.15" x2="-0.65" y1="-1.45" x1="-0.65"/>
+                    <wire layer="51" y2="1.45" width="0.15" x2="0.65" y1="1.45" x1="-0.65"/>
+                    <wire layer="51" y2="-1.45" width="0.15" x2="0.65" y1="1.45" x1="0.65"/>
+                    <wire layer="51" y2="-1.45" width="0.15" x2="-0.65" y1="-1.45" x1="0.65"/>
+                    <wire layer="41" y2="1.55" width="0.1" x2="-1.506" y1="-1.55" x1="-1.506"/>
+                    <wire layer="41" y2="1.55" width="0.1" x2="1.506" y1="1.55" x1="-1.506"/>
+                    <wire layer="41" y2="-1.55" width="0.1" x2="1.506" y1="1.55" x1="1.506"/>
+                    <wire layer="41" y2="-1.55" width="0.1" x2="-1.506" y1="-1.55" x1="1.506"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.65" y1="1.45" x1="0.028"/>
+                    <wire layer="21" y2="-0.648" width="0.15" x2="0.65" y1="-1.45" x1="0.65"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.65" y1="0.648" x1="0.65"/>
+                    <wire layer="21" y2="-1.45" width="0.15" x2="0.65" y1="-1.45" x1="0.028"/>
+                    <wire layer="21" y2="0.267" width="0.15" x2="-0.65" y1="-0.267" x1="-0.65"/>
+                    <text layer="25" align="bottom-left" y="1.85" x="-1.606" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.059" dy="0.547" y="0.915" x="-0.877" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="1.059" dy="0.547" y="-0.915" x="-0.877" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="1.059" dy="0.547" y="-0.0" x="0.877" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="DIODES_INC._DMN3404L-7_0_0">
+                    <description>N-Channel 30V 5.8A (Ta) 720mW (Ta) Surface Mount SOT-23-3</description>
+                    <wire layer="94" y2="-2.54" width="0.508" x2="1.016" y1="-7.62" x1="1.016"/>
+                    <wire layer="94" y2="-2.54" width="0.508" x2="1.778" y1="-3.556" x1="1.778"/>
+                    <wire layer="94" y2="-7.112" width="0.508" x2="5.08" y1="-7.112" x1="1.778"/>
+                    <wire layer="94" y2="-3.048" width="0.508" x2="5.08" y1="-3.048" x1="1.778"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="5.08" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-4.318" width="0.508" x2="3.556" y1="-5.08" x1="2.286"/>
+                    <wire layer="94" y2="-5.842" width="0.508" x2="3.556" y1="-5.08" x1="2.286"/>
+                    <wire layer="94" y2="-5.842" width="0.508" x2="3.556" y1="-4.318" x1="3.556"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="3.302" y1="-4.826" x1="3.302"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="1.778" y1="-6.604" x1="1.778"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="1.778" y1="-4.572" x1="1.778"/>
+                    <wire layer="94" y2="-7.112" width="0.508" x2="6.858" y1="-7.112" x1="5.08"/>
+                    <wire layer="94" y2="-3.048" width="0.508" x2="6.858" y1="-7.112" x1="6.858"/>
+                    <wire layer="94" y2="-3.048" width="0.508" x2="5.08" y1="-3.048" x1="6.858"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="6.35" y1="-4.572" x1="6.858"/>
+                    <wire layer="94" y2="-5.588" width="0.508" x2="7.366" y1="-5.588" x1="6.35"/>
+                    <wire layer="94" y2="-4.572" width="0.508" x2="6.858" y1="-5.588" x1="7.366"/>
+                    <wire layer="94" y2="-4.572" width="0.508" x2="7.366" y1="-4.572" x1="6.858"/>
+                    <wire layer="94" y2="-4.572" width="0.508" x2="6.35" y1="-4.572" x1="6.858"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="1.016" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.15" x2="5.08" y1="-5.08" x1="5.08"/>
+                    <wire layer="94" y2="-3.048" width="0.15" x2="5.08" y1="-2.54" x1="5.08"/>
+                    <text layer="95" align="top-left" y="-2.54" x="8.382" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-5.334" x="8.382" rot="R0" size="2.54">DMN3404L-7</text>
+                    <pin direction="pas" name="G" visible="pad" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="pas" name="S" visible="pad" length="middle" y="-10.16" x="5.08" rot="R90"/>
+                    <pin direction="pas" name="D" visible="pad" length="middle" y="2.54" x="5.08" rot="R270"/>
+                    <circle y="-3.048" x="5.08" layer="94" radius="0.254" width="0.254"/>
+                    <circle y="-7.112" x="5.08" layer="94" radius="0.254" width="0.254"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="Q" name="DIODES_INC._DMN3404L-7">
+                    <description>N-Channel 30V 5.8A (Ta) 720mW (Ta) Surface Mount SOT-23-3</description>
+                    <gates>
+                        <gate name="G$0" symbol="DIODES_INC._DMN3404L-7_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="DIODES_INC._DMN3404L-7_0_0" package="DIODES_INC._DMN3404L-7_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="G"/>
+                                <connect gate="G$0" pad="2" pin="S"/>
+                                <connect gate="G$0" pad="3" pin="D"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="621-DMN3404L-7"/>
+                                    <attribute name="depletion_mode" value="False"/>
+                                    <attribute name="automotive_grade" value="NA"/>
+                                    <attribute name="pulse_drain_current" value="30A"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="turn_on_delay_time" value="3.41ns"/>
+                                    <attribute name="mouser_description" value="N-Channel 30 V 28 mOhm Surface Mount Enhancement Mode Mosfet - SOT-23-3"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+150°C"/>
+                                    <attribute name="MPN" value="DMN3404L-7"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="gate_to_source_voltage" value="20V"/>
+                                    <attribute name="digikey_description" value="TRANS MOSFET N-CH 30V 5.8A SOT-23"/>
+                                    <attribute name="device_class_L3" value="MOSFETs"/>
+                                    <attribute name="device_class_L1" value="Discrete Semiconductors"/>
+                                    <attribute name="digikey_part_number" value="DMN3404LDICT-ND"/>
+                                    <attribute name="prefix" value="Q"/>
+                                    <attribute name="drain_to_source_resistance" value="24mΩ"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="threshold_vgs_max" value="2V"/>
+                                    <attribute name="typ_forward_diode_voltage" value="0.75V"/>
+                                    <attribute name="datasheet" value="https://www.diodes.com/assets/Datasheets/ds31787.pdf"/>
+                                    <attribute name="power_dissipation" value="0.72W"/>
+                                    <attribute name="footprint_url" value="https://www.diodes.com/assets/Package-Files/SOT23.pdf"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.1mm"/>
+                                    <attribute name="threshold_vgs_min" value="1V"/>
+                                    <attribute name="number_of_N_channels" value="1"/>
+                                    <attribute name="mfg_package_ident" value="SOT23"/>
+                                    <attribute name="drain_to_source_breakdown_voltage" value="30V"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="continuous_drain_current" value="4.2A"/>
+                                    <attribute name="input_capacitace_at_vds" value="498pF @ 15V"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="gate_charge_at_vgs" value="11.3nC @ 10V"/>
+                                    <attribute name="package" value="SOT23-3"/>
+                                    <attribute name="standoff_height" value="0.013mm"/>
+                                    <attribute name="mfg_package_ident_date" value="01/2017"/>
+                                    <attribute name="turn_off_delay_time" value="13.92ns"/>
+                                    <attribute name="number_of_channels" value="1"/>
+                                    <attribute name="MF" value="Diodes Inc."/>
+                                    <attribute name="rthja_max" value="173°C/W"/>
+                                    <attribute name="device_class_L2" value="Transistors"/>
+                                    <attribute name="max_forward_diode_voltage" value="1V"/>
+                                    <attribute name="drain_to_source_voltage" value="30V"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="DIODES_INC._DMN3404L-7_0_1" package="DIODES_INC._DMN3404L-7_1">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="G"/>
+                                <connect gate="G$0" pad="2" pin="S"/>
+                                <connect gate="G$0" pad="3" pin="D"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="621-DMN3404L-7"/>
+                                    <attribute name="depletion_mode" value="False"/>
+                                    <attribute name="automotive_grade" value="NA"/>
+                                    <attribute name="pulse_drain_current" value="30A"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="turn_on_delay_time" value="3.41ns"/>
+                                    <attribute name="mouser_description" value="N-Channel 30 V 28 mOhm Surface Mount Enhancement Mode Mosfet - SOT-23-3"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+150°C"/>
+                                    <attribute name="MPN" value="DMN3404L-7"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="gate_to_source_voltage" value="20V"/>
+                                    <attribute name="digikey_description" value="TRANS MOSFET N-CH 30V 5.8A SOT-23"/>
+                                    <attribute name="device_class_L3" value="MOSFETs"/>
+                                    <attribute name="device_class_L1" value="Discrete Semiconductors"/>
+                                    <attribute name="digikey_part_number" value="DMN3404LDICT-ND"/>
+                                    <attribute name="prefix" value="Q"/>
+                                    <attribute name="drain_to_source_resistance" value="24mΩ"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="threshold_vgs_max" value="2V"/>
+                                    <attribute name="typ_forward_diode_voltage" value="0.75V"/>
+                                    <attribute name="datasheet" value="https://www.diodes.com/assets/Datasheets/ds31787.pdf"/>
+                                    <attribute name="power_dissipation" value="0.72W"/>
+                                    <attribute name="footprint_url" value="https://www.diodes.com/assets/Package-Files/SOT23.pdf"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.1mm"/>
+                                    <attribute name="threshold_vgs_min" value="1V"/>
+                                    <attribute name="number_of_N_channels" value="1"/>
+                                    <attribute name="mfg_package_ident" value="SOT23"/>
+                                    <attribute name="drain_to_source_breakdown_voltage" value="30V"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="continuous_drain_current" value="4.2A"/>
+                                    <attribute name="input_capacitace_at_vds" value="498pF @ 15V"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="gate_charge_at_vgs" value="11.3nC @ 10V"/>
+                                    <attribute name="package" value="SOT23-3"/>
+                                    <attribute name="standoff_height" value="0.013mm"/>
+                                    <attribute name="mfg_package_ident_date" value="01/2017"/>
+                                    <attribute name="turn_off_delay_time" value="13.92ns"/>
+                                    <attribute name="number_of_channels" value="1"/>
+                                    <attribute name="MF" value="Diodes Inc."/>
+                                    <attribute name="rthja_max" value="173°C/W"/>
+                                    <attribute name="device_class_L2" value="Transistors"/>
+                                    <attribute name="max_forward_diode_voltage" value="1V"/>
+                                    <attribute name="drain_to_source_voltage" value="30V"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="DIODES_INC._DMN3404L-7_0_2" package="DIODES_INC._DMN3404L-7_2">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="G"/>
+                                <connect gate="G$0" pad="2" pin="S"/>
+                                <connect gate="G$0" pad="3" pin="D"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="621-DMN3404L-7"/>
+                                    <attribute name="depletion_mode" value="False"/>
+                                    <attribute name="automotive_grade" value="NA"/>
+                                    <attribute name="pulse_drain_current" value="30A"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="turn_on_delay_time" value="3.41ns"/>
+                                    <attribute name="mouser_description" value="N-Channel 30 V 28 mOhm Surface Mount Enhancement Mode Mosfet - SOT-23-3"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+150°C"/>
+                                    <attribute name="MPN" value="DMN3404L-7"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="gate_to_source_voltage" value="20V"/>
+                                    <attribute name="digikey_description" value="TRANS MOSFET N-CH 30V 5.8A SOT-23"/>
+                                    <attribute name="device_class_L3" value="MOSFETs"/>
+                                    <attribute name="device_class_L1" value="Discrete Semiconductors"/>
+                                    <attribute name="digikey_part_number" value="DMN3404LDICT-ND"/>
+                                    <attribute name="prefix" value="Q"/>
+                                    <attribute name="drain_to_source_resistance" value="24mΩ"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="threshold_vgs_max" value="2V"/>
+                                    <attribute name="typ_forward_diode_voltage" value="0.75V"/>
+                                    <attribute name="datasheet" value="https://www.diodes.com/assets/Datasheets/ds31787.pdf"/>
+                                    <attribute name="power_dissipation" value="0.72W"/>
+                                    <attribute name="footprint_url" value="https://www.diodes.com/assets/Package-Files/SOT23.pdf"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.1mm"/>
+                                    <attribute name="threshold_vgs_min" value="1V"/>
+                                    <attribute name="number_of_N_channels" value="1"/>
+                                    <attribute name="mfg_package_ident" value="SOT23"/>
+                                    <attribute name="drain_to_source_breakdown_voltage" value="30V"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="continuous_drain_current" value="4.2A"/>
+                                    <attribute name="input_capacitace_at_vds" value="498pF @ 15V"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="gate_charge_at_vgs" value="11.3nC @ 10V"/>
+                                    <attribute name="package" value="SOT23-3"/>
+                                    <attribute name="standoff_height" value="0.013mm"/>
+                                    <attribute name="mfg_package_ident_date" value="01/2017"/>
+                                    <attribute name="turn_off_delay_time" value="13.92ns"/>
+                                    <attribute name="number_of_channels" value="1"/>
+                                    <attribute name="MF" value="Diodes Inc."/>
+                                    <attribute name="rthja_max" value="173°C/W"/>
+                                    <attribute name="device_class_L2" value="Transistors"/>
+                                    <attribute name="max_forward_diode_voltage" value="1V"/>
+                                    <attribute name="drain_to_source_voltage" value="30V"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="DIODES_INC._DMN3404L-7_0_3" package="DIODES_INC._DMN3404L-7_3">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="G"/>
+                                <connect gate="G$0" pad="2" pin="S"/>
+                                <connect gate="G$0" pad="3" pin="D"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="621-DMN3404L-7"/>
+                                    <attribute name="depletion_mode" value="False"/>
+                                    <attribute name="automotive_grade" value="NA"/>
+                                    <attribute name="pulse_drain_current" value="30A"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="turn_on_delay_time" value="3.41ns"/>
+                                    <attribute name="mouser_description" value="N-Channel 30 V 28 mOhm Surface Mount Enhancement Mode Mosfet - SOT-23-3"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOT23","params":{"N":{"default":"3","long name":"Number of leads","type":"multichoice","short name":"N"},"A":{"nom":1024999,"long name":"Height","min":903000,"max":1100000,"short name":"A","type":"measurement"},"A1":{"nom":50000,"long name":"Package clearance","min":13000,"max":100000,"short name":"A1","type":"measurement"},"A2":{"nom":975000,"long name":"Package height","min":890000,"max":1000000,"short name":"A2","type":"measurement"},"D":{"nom":2900000,"long name":"Package length","min":2800000,"max":3000000,"short name":"D","type":"measurement"},"E":{"nom":2400000,"long name":"Width /w leads","min":2300000,"max":2500000,"short name":"E","type":"measurement"},"E1":{"nom":1300000,"long name":"Package width","min":1200000,"max":1400000,"short name":"E1","type":"measurement"},"B":{"nom":400000,"long name":"Lead width","min":370000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":110000,"long name":"Lead thickness","min":85000,"max":150000,"short name":"C","type":"measurement"},"L":{"nom":400000,"long name":"Lead foot length","min":250000,"max":550000,"short name":"L","type":"measurement"},"e":{"nom":915000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":8,"short name":"PHI","type":"measurement"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+150°C"/>
+                                    <attribute name="MPN" value="DMN3404L-7"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="gate_to_source_voltage" value="20V"/>
+                                    <attribute name="digikey_description" value="TRANS MOSFET N-CH 30V 5.8A SOT-23"/>
+                                    <attribute name="device_class_L3" value="MOSFETs"/>
+                                    <attribute name="device_class_L1" value="Discrete Semiconductors"/>
+                                    <attribute name="digikey_part_number" value="DMN3404LDICT-ND"/>
+                                    <attribute name="prefix" value="Q"/>
+                                    <attribute name="drain_to_source_resistance" value="24mΩ"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="threshold_vgs_max" value="2V"/>
+                                    <attribute name="typ_forward_diode_voltage" value="0.75V"/>
+                                    <attribute name="datasheet" value="https://www.diodes.com/assets/Datasheets/ds31787.pdf"/>
+                                    <attribute name="power_dissipation" value="0.72W"/>
+                                    <attribute name="footprint_url" value="https://www.diodes.com/assets/Package-Files/SOT23.pdf"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.1mm"/>
+                                    <attribute name="threshold_vgs_min" value="1V"/>
+                                    <attribute name="number_of_N_channels" value="1"/>
+                                    <attribute name="mfg_package_ident" value="SOT23"/>
+                                    <attribute name="drain_to_source_breakdown_voltage" value="30V"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="continuous_drain_current" value="4.2A"/>
+                                    <attribute name="input_capacitace_at_vds" value="498pF @ 15V"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="gate_charge_at_vgs" value="11.3nC @ 10V"/>
+                                    <attribute name="package" value="SOT23-3"/>
+                                    <attribute name="standoff_height" value="0.013mm"/>
+                                    <attribute name="mfg_package_ident_date" value="01/2017"/>
+                                    <attribute name="turn_off_delay_time" value="13.92ns"/>
+                                    <attribute name="number_of_channels" value="1"/>
+                                    <attribute name="MF" value="Diodes Inc."/>
+                                    <attribute name="rthja_max" value="173°C/W"/>
+                                    <attribute name="device_class_L2" value="Transistors"/>
+                                    <attribute name="max_forward_diode_voltage" value="1V"/>
+                                    <attribute name="drain_to_source_voltage" value="30V"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>

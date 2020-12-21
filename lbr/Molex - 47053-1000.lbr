@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="MOLEX_47053-1000_0">
+                    <description>4-PIN HEADER HOUSING WITH FRICTION LOCK</description>
+                    <wire layer="51" y2="5.1" width="0.15" x2="-2.92" y1="-5.1" x1="-2.92"/>
+                    <wire layer="51" y2="5.1" width="0.15" x2="2.92" y1="5.1" x1="-2.92"/>
+                    <wire layer="51" y2="-5.1" width="0.15" x2="2.92" y1="5.1" x1="2.92"/>
+                    <wire layer="51" y2="-5.1" width="0.15" x2="-2.92" y1="-5.1" x1="2.92"/>
+                    <wire layer="39" y2="5.3" width="0.1" x2="-3.265" y1="-5.3" x1="-3.265"/>
+                    <wire layer="39" y2="5.3" width="0.1" x2="3.02" y1="5.3" x1="-3.265"/>
+                    <wire layer="39" y2="-5.3" width="0.1" x2="3.02" y1="5.3" x1="3.02"/>
+                    <wire layer="39" y2="-5.3" width="0.1" x2="-3.265" y1="-5.3" x1="3.02"/>
+                    <wire layer="21" y2="5.1" width="0.15" x2="2.92" y1="5.1" x1="-2.92"/>
+                    <wire layer="21" y2="-5.1" width="0.15" x2="2.92" y1="-5.1" x1="-2.92"/>
+                    <wire layer="21" y2="-5.1" width="0.15" x2="2.92" y1="5.1" x1="2.92"/>
+                    <wire layer="21" y2="-5.1" width="0.15" x2="-2.92" y1="0.22" x1="-2.92"/>
+                    <wire layer="21" y2="2.3" width="0.15" x2="-2.92" y1="5.1" x1="-2.92"/>
+                    <text layer="25" align="bottom-left" y="5.475" x="-3.12" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="-3.81" x="-3.545" layer="21" radius="0.25" width="0.0"/>
+                    <hole y="1.27" x="-2.54" drill="1.25"/>
+                    <pad diameter="1.57" name="4" shape="round" drill="1.02" y="3.81" x="-0.38" rot="R0"/>
+                    <pad diameter="1.57" name="3" shape="round" drill="1.02" y="1.27" x="-0.38" rot="R0"/>
+                    <pad diameter="1.57" name="2" shape="round" drill="1.02" y="-1.27" x="-0.38" rot="R0"/>
+                    <pad diameter="1.57" name="1" shape="square" drill="1.02" y="-3.81" x="-0.38" rot="R0"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="MOLEX_47053-1000_0_0">
+                    <description>4-PIN HEADER HOUSING WITH FRICTION LOCK</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="0.0" y1="-30.48" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="5.08" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-30.48" width="0.254" x2="5.08" y1="-5.08" x1="5.08"/>
+                    <wire layer="94" y2="-30.48" width="0.254" x2="0.0" y1="-30.48" x1="5.08"/>
+                    <wire layer="94" y2="-9.652" width="1.016" x2="1.27" y1="-10.668" x1="1.27"/>
+                    <wire layer="94" y2="-9.652" width="1.016" x2="3.048" y1="-9.652" x1="1.27"/>
+                    <wire layer="94" y2="-10.668" width="1.016" x2="3.048" y1="-9.652" x1="3.048"/>
+                    <wire layer="94" y2="-10.668" width="1.016" x2="1.27" y1="-10.668" x1="3.048"/>
+                    <wire layer="94" y2="-10.16" width="0.508" x2="5.08" y1="-10.16" x1="3.302"/>
+                    <wire layer="94" y2="-14.732" width="1.016" x2="1.27" y1="-15.748" x1="1.27"/>
+                    <wire layer="94" y2="-14.732" width="1.016" x2="3.048" y1="-14.732" x1="1.27"/>
+                    <wire layer="94" y2="-15.748" width="1.016" x2="3.048" y1="-14.732" x1="3.048"/>
+                    <wire layer="94" y2="-15.748" width="1.016" x2="1.27" y1="-15.748" x1="3.048"/>
+                    <wire layer="94" y2="-15.24" width="0.508" x2="5.08" y1="-15.24" x1="3.302"/>
+                    <wire layer="94" y2="-19.812" width="1.016" x2="1.27" y1="-20.828" x1="1.27"/>
+                    <wire layer="94" y2="-19.812" width="1.016" x2="3.048" y1="-19.812" x1="1.27"/>
+                    <wire layer="94" y2="-20.828" width="1.016" x2="3.048" y1="-19.812" x1="3.048"/>
+                    <wire layer="94" y2="-20.828" width="1.016" x2="1.27" y1="-20.828" x1="3.048"/>
+                    <wire layer="94" y2="-20.32" width="0.508" x2="5.08" y1="-20.32" x1="3.302"/>
+                    <wire layer="94" y2="-24.892" width="1.016" x2="1.27" y1="-25.908" x1="1.27"/>
+                    <wire layer="94" y2="-24.892" width="1.016" x2="3.048" y1="-24.892" x1="1.27"/>
+                    <wire layer="94" y2="-25.908" width="1.016" x2="3.048" y1="-24.892" x1="3.048"/>
+                    <wire layer="94" y2="-25.908" width="1.016" x2="1.27" y1="-25.908" x1="3.048"/>
+                    <wire layer="94" y2="-25.4" width="0.508" x2="5.08" y1="-25.4" x1="3.302"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="5.08" y1="-10.16" x1="5.08"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="5.08" y1="-15.24" x1="5.08"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="5.08" y1="-20.32" x1="5.08"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="5.08" y1="-25.4" x1="5.08"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-33.02" x="0.0" rot="R0" size="2.54">47053-1000</text>
+                    <pin name="1" visible="pad" length="middle" y="-10.16" x="10.16" rot="R180"/>
+                    <pin name="2" visible="pad" length="middle" y="-15.24" x="10.16" rot="R180"/>
+                    <pin name="3" visible="pad" length="middle" y="-20.32" x="10.16" rot="R180"/>
+                    <pin name="4" visible="pad" length="middle" y="-25.4" x="10.16" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="J" name="MOLEX_47053-1000">
+                    <description>4-PIN HEADER HOUSING WITH FRICTION LOCK</description>
+                    <gates>
+                        <gate name="G$0" symbol="MOLEX_47053-1000_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="MOLEX_47053-1000_0_0" package="MOLEX_47053-1000_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="1"/>
+                                <connect gate="G$0" pad="2" pin="2"/>
+                                <connect gate="G$0" pad="3" pin="3"/>
+                                <connect gate="G$0" pad="4" pin="4"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="538-47053-1000"/>
+                                    <attribute name="Current" value="4.0A"/>
+                                    <attribute name="ipc_land_pattern_name" value="HDRV4W65P_1X4_1020X65X1350"/>
+                                    <attribute name="temperature_range_high" value="+75°C"/>
+                                    <attribute name="MPN" value="47053-1000"/>
+                                    <attribute name="digikey_description" value='CONN 4 Positions Header, Unshrouded Connector 0.100" (2.54mm) Through Hole Tin'/>
+                                    <attribute name="digikey_part_number" value="WM4330-ND"/>
+                                    <attribute name="temperature_range_low" value="0°C"/>
+                                    <attribute name="prefix" value="J"/>
+                                    <attribute name="datasheet" value="http://www.molex.com/webdocs/datasheets/pdf/en-us//0470531000_PCB_HEADERS.pdf"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="Contact_Type" value="Male Pin"/>
+                                    <attribute name="voltage" value="250V"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="centroid_not_specified" value="Yes"/>
+                                    <attribute name="Mounting_Style" value="Through Hole"/>
+                                    <attribute name="MF" value="Molex"/>
+                                    <attribute name="Pitch" value="2.54mm"/>
+                                    <attribute name="package" value="CONN_4P254L"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
