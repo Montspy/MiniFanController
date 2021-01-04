@@ -5840,8 +5840,8 @@ Source: Samtec TSW.pdf</description>
 <instance part="P+3" gate="1" x="106.68" y="-35.56" smashed="yes">
 <attribute name="VALUE" x="104.14" y="-40.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q2" gate="G$0" x="210.82" y="-48.26" smashed="yes">
-<attribute name="NAME" x="221.742" y="-50.8" size="2.54" layer="95" align="top-left"/>
+<instance part="Q2" gate="G$0" x="210.82" y="-58.42" smashed="yes" rot="MR180">
+<attribute name="NAME" x="221.742" y="-55.88" size="2.54" layer="95" rot="MR180" align="top-left"/>
 </instance>
 <instance part="P+4" gate="1" x="215.9" y="-33.02" smashed="yes">
 <attribute name="VALUE" x="213.36" y="-38.1" size="1.778" layer="96" rot="R90"/>
@@ -5890,8 +5890,8 @@ Source: Samtec TSW.pdf</description>
 <instance part="P+5" gate="1" x="106.68" y="-93.98" smashed="yes">
 <attribute name="VALUE" x="104.14" y="-99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q5" gate="G$0" x="210.82" y="-106.68" smashed="yes">
-<attribute name="NAME" x="221.742" y="-109.22" size="2.54" layer="95" align="top-left"/>
+<instance part="Q5" gate="G$0" x="210.82" y="-116.84" smashed="yes" rot="MR180">
+<attribute name="NAME" x="221.742" y="-114.3" size="2.54" layer="95" rot="MR180" align="top-left"/>
 </instance>
 <instance part="P+6" gate="1" x="215.9" y="-91.44" smashed="yes">
 <attribute name="VALUE" x="213.36" y="-96.52" size="1.778" layer="96" rot="R90"/>
@@ -6086,23 +6086,23 @@ Source: Samtec TSW.pdf</description>
 <wire x1="7.62" y1="27.94" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$0" pin="D"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
 <wire x1="215.9" y1="-35.56" x2="215.9" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="-38.1" x2="215.9" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-40.64" x2="200.66" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-38.1" x2="215.9" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$0" pin="S"/>
+<wire x1="215.9" y1="-48.26" x2="215.9" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="215.9" y="-38.1"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="G$0" pin="D"/>
 <pinref part="P+6" gate="1" pin="+12V"/>
 <wire x1="215.9" y1="-93.98" x2="215.9" y2="-96.52" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="-96.52" x2="215.9" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-99.06" x2="200.66" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-96.52" x2="215.9" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$0" pin="S"/>
+<wire x1="215.9" y1="-106.68" x2="215.9" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="215.9" y="-96.52"/>
 </segment>
 <segment>
@@ -6211,10 +6211,10 @@ Source: Samtec TSW.pdf</description>
 <label x="177.8" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="G$0" pin="S"/>
-<wire x1="215.9" y1="-116.84" x2="215.9" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-119.38" x2="238.76" y2="-119.38" width="0.1524" layer="91"/>
-<label x="220.98" y="-119.38" size="1.778" layer="95"/>
+<wire x1="215.9" y1="-121.92" x2="238.76" y2="-121.92" width="0.1524" layer="91"/>
+<label x="220.98" y="-121.92" size="1.778" layer="95"/>
+<pinref part="Q5" gate="G$0" pin="D"/>
+<wire x1="215.9" y1="-119.38" x2="215.9" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V_FAN1" class="0">
@@ -6224,10 +6224,10 @@ Source: Samtec TSW.pdf</description>
 <label x="177.8" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$0" pin="S"/>
-<wire x1="215.9" y1="-58.42" x2="215.9" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-60.96" x2="238.76" y2="-60.96" width="0.1524" layer="91"/>
-<label x="220.98" y="-60.96" size="1.778" layer="95"/>
+<wire x1="215.9" y1="-63.5" x2="238.76" y2="-63.5" width="0.1524" layer="91"/>
+<label x="220.98" y="-63.5" size="1.778" layer="95"/>
+<pinref part="Q2" gate="G$0" pin="D"/>
+<wire x1="215.9" y1="-60.96" x2="215.9" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM1" class="0">
